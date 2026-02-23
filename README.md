@@ -2,7 +2,7 @@
 
 ### A decision-support analytics prototype for material selection under environmental, operational, and regulatory uncertainty
 
-**Tableau Dashboard:** *(insert Tableau Public link)*
+**Tableau Dashboard:** *[link](https://public.tableau.com/app/profile/vesper.annstas/viz/SustainableMaterialsDecisionIntelligence/Risk-AdjustedMaterialRanking)*
 
 ---
 
@@ -110,6 +110,9 @@ This will create:
 
 Using a fixed seed ensures that results are deterministic and reproducible.
 Changing the seed allows simulation of alternative supply chain distributions and impact scenarios.
+
+## Tableau Public Web Authoring
+Tableau Public does not allow joining data sources, so the dashboard uses a single combined CSV file that merges all domains based on material ID. This file is generated from the individual domain CSVs to maintain modularity in data generation. To generate a single file, run merge_data.py._
 
 ---
 
