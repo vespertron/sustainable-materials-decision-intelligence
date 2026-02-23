@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data
+*.csv
+
+# VS Code
+.vscode/
+
+# Visual Studio (CRITICAL)
+.vs/
+*.db
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db

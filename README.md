@@ -58,6 +58,59 @@ Captures regulatory exposure and reliability of reported sustainability data.
 
 All values are illustrative and designed to represent real-world data quality challenges rather than exact measurements.
 
+## How to Generate Data
+
+The project includes a reproducible dummy data generator to simulate realistic sustainability, supply chain, and regulatory datasets.
+
+All CSV files used in the dashboard are generated programmatically.
+
+Requirements
+
+Python 3.9+
+
+pandas
+
+numpy
+
+### Install Dependencies (Windows)
+
+Open Command Prompt or PowerShell and run:
+
+``py -m pip install pandas numpy``
+
+If py is not recognized:
+
+``python -m pip install pandas numpy
+Generate the Data``
+
+From the root of the repository, run:
+
+``py generate_dummy_data.py --rows 90 --seed 42 --out data``
+
+### Parameters:
+
+--rows → number of materials to generate
+
+--seed → random seed for reproducibility
+
+--out → output directory for CSV files
+
+This will create:
+
+```
+/data
+  materials_master.csv
+  environmental_impact.csv
+  supply_chain_risk.csv
+  regulatory_confidence.csv
+  scenarios.csv
+```
+
+## Reproducibility
+
+Using a fixed seed ensures that results are deterministic and reproducible.
+Changing the seed allows simulation of alternative supply chain distributions and impact scenarios.
+
 ---
 
 ## Dashboard Structure
