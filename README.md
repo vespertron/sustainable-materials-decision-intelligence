@@ -2,7 +2,7 @@
 
 ### A decision-support analytics prototype for material selection under environmental, operational, and regulatory uncertainty
 
-**Tableau Dashboard:** *[link](https://public.tableau.com/app/profile/vesper.annstas/viz/SustainableMaterialsDecisionIntelligence/Risk-AdjustedMaterialRanking)*
+**Tableau Dashboard:** *[link](https://public.tableau.com/app/profile/vesper.annstas/viz/SustainableMaterialsDecisionIntelligence/DecisionOverview)*
 
 ---
 
